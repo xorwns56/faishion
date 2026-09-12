@@ -29,7 +29,7 @@ services:
   #   - mysql healthcheck 통과 후 시작
   # =============================================================
   backend:
-    image: ghcr.io/sewonnnn/faishion-backend:latest
+    image: ghcr.io/xorwns56/faishion-backend:latest
     container_name: faishion-backend
     environment:
       DB_URL: jdbc:mysql://mysql:3306/faishion_db?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
@@ -56,7 +56,7 @@ services:
   #   - SSL 인증서는 서버의 Let's Encrypt 경로를 read-only 마운트
   # =============================================================
   frontend:
-    image: ghcr.io/sewonnnn/faishion-frontend:latest
+    image: ghcr.io/xorwns56/faishion-frontend:latest
     container_name: faishion-frontend
     ports:
       - "80:80"
