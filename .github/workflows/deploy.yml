@@ -6,8 +6,8 @@ on:
       - master  # master 브랜치에 push 시 실행
 
 env:
-  FRONTEND_IMAGE: ghcr.io/${{ github.repository_owner }}/faishion-frontend
-  BACKEND_IMAGE: ghcr.io/${{ github.repository_owner }}/faishion-backend
+  FRONTEND_IMAGE: ghcr.io/${{ github.repository }}/frontend
+  BACKEND_IMAGE: ghcr.io/${{ github.repository }}/backend
 
 jobs:
   # =============================================================
