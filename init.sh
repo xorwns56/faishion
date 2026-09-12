@@ -16,7 +16,7 @@
 #    (로컬에서: scp -i <키파일.pem> -r upload/ ubuntu@<서버IP>:/home/ubuntu/upload/)
 #
 # 서버에서 실행:
-#   curl -sSL https://raw.githubusercontent.com/sewonnnn/faishion/master/init.sh -o init.sh
+#   curl -sSL https://raw.githubusercontent.com/xorwns56/faishion/master/init.sh -o init.sh
 #   sudo bash init.sh
 # =============================================================
 
@@ -82,7 +82,7 @@ certbot certonly \
 # ------------------------------------------
 echo "[5/6] docker-compose.yml 다운로드..."
 curl -o /home/ubuntu/docker-compose.yml \
-  https://raw.githubusercontent.com/sewonnnn/faishion/master/docker-compose.yml
+  https://raw.githubusercontent.com/xorwns56/faishion/master/docker-compose.yml
 
 # ------------------------------------------
 # 6. .env 파일 생성

@@ -13,7 +13,7 @@ AI 기반 가상 피팅 기능이 포함된 풀스택 쇼핑몰 프로젝트입�
 ## 📺 시연 영상
 👉
 
-[📄 프로젝트 문서 (PDF 보기)](https://github.com/sewonnnn/faishion/blob/master/fAIshion_Team_Project.pdf)
+[📄 프로젝트 문서 (PDF 보기)](https://github.com/xorwns56/faishion/blob/master/fAIshion_Team_Project.pdf)
 
 
 ## 📌 주요 기능
@@ -142,7 +142,7 @@ DNS가 새 IP로 반영된 것을 확인한 후 SSH로 접속해 init.sh를 실�
 Docker, Swap, SSL 인증서 설치 및 .env 생성까지 자동으로 진행됩니다.
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/sewonnnn/faishion/master/init.sh -o init.sh
+curl -sSL https://raw.githubusercontent.com/xorwns56/faishion/master/init.sh -o init.sh
 sudo bash init.sh
 ```
 
